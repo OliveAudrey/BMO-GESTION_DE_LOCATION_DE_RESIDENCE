@@ -8,9 +8,11 @@ Ce diagramme de séquence illustre le processus de modification des tarifs sur u
 
 Scénario :
 
--Le système affiche les éléments.
--Le gestionnaire sélectionne l’élément qu’il souhaite modifier.
-- Le système donne acces au gestionnaire pour la modification.
-- Le gestionnaire appliques les tarifs
+- Le système affiche le panier de commande.
+- Le client valide le panier.
+- Le système envoie un formulaire de paiement
+- Le client remplit ces informations bancaires
+- Le système envoie un email de confirmation 
 
-  Par la suite le systeme effectue le calcul automatique du loyer
+
+  
