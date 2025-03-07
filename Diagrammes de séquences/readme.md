@@ -1,5 +1,7 @@
-DIagrammes de séquences 
 
-IRAKOZE Olive TOMBEZE Noah
+IRAKOZE Olive
+TOMBEZE Noah
 
-Comme demandé dans la consigne 2) Etude à réaliser, pour chacun de nos cas d'utilisation, nous avons réaliser un diagramme de séquence
+                                                                        DIAGRAMMES DE SEQUNCES 
+
+Nous avons réalisé un diagramme de séquence et un readMe explicatif pour chacun de nos cas d'utilisations.
