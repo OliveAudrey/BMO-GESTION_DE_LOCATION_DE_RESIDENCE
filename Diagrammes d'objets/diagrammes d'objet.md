@@ -20,3 +20,5 @@ Ce diagramme d'objet représente des instances concrètes des classes définies 
 
 
 Ce diagramme permet de visualiser une instance concrète du processus de réservation d’un studio dans une résidence. Il montre comment les objets interagissent entre eux, depuis l'action du client jusqu'à la gestion par l'administrateur. Le modèle met en évidence le lien entre paiement, avis, options et disponibilité des éléments.  
+
+IRAKOZE Olive Audrey et TOMBEZE Noah
