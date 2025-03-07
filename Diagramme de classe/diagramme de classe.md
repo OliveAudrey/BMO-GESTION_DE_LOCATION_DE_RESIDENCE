@@ -1,3 +1,5 @@
+Diagramme de classe
+
 Ce diagramme représente un **système de gestion des réservations** pour une résidence, en modélisant les relations entre clients, réservations, paiements, gestionnaires, résidences et options.  
 
 **1. Principales Classes et Relations**  
