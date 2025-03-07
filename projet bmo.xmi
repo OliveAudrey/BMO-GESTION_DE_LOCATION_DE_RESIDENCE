@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_l3AiwPuHEe-bBLRxBIcuPg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/JavaExtensions/_l3AiwPuHEe-bBLRxBIcuPg/0 JavaExtensions.profile.xmi#_l3ENJ_uHEe-bBLRxBIcuPg">
+  <uml:Model xmi:id="_l23_4PuHEe-bBLRxBIcuPg" name="projet bmo">
+    <eAnnotations xmi:id="_l23_4fuHEe-bBLRxBIcuPg" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_l23_4vuHEe-bBLRxBIcuPg" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_l23_4_uHEe-bBLRxBIcuPg" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_l23_5PuHEe-bBLRxBIcuPg" name="Client"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l23_5fuHEe-bBLRxBIcuPg" memberEnd="_l23_5vuHEe-bBLRxBIcuPg _l23_6PuHEe-bBLRxBIcuPg" navigableOwnedEnd="_l23_5vuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l23_5vuHEe-bBLRxBIcuPg" visibility="public" type="_l24AHfuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_5fuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_5_uHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_l23_6PuHEe-bBLRxBIcuPg" visibility="public" type="_l23_5PuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_5fuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_6fuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l23_6vuHEe-bBLRxBIcuPg" memberEnd="_l23_6_uHEe-bBLRxBIcuPg _l23_7fuHEe-bBLRxBIcuPg" navigableOwnedEnd="_l23_6_uHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l23_6_uHEe-bBLRxBIcuPg" visibility="public" type="_l24ABvuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_6vuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_7PuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_l23_7fuHEe-bBLRxBIcuPg" visibility="public" type="_l23_5PuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_6vuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_7vuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l23_7_uHEe-bBLRxBIcuPg" memberEnd="_l23_8PuHEe-bBLRxBIcuPg _l23_8vuHEe-bBLRxBIcuPg" navigableOwnedEnd="_l23_8PuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l23_8PuHEe-bBLRxBIcuPg" visibility="public" type="_l23___uHEe-bBLRxBIcuPg" isUnique="false" association="_l23_7_uHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_8fuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_l23_8vuHEe-bBLRxBIcuPg" visibility="public" type="_l23_5PuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_7_uHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_8_uHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_l23_9PuHEe-bBLRxBIcuPg" name="Gestionnaire"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l23_9fuHEe-bBLRxBIcuPg" memberEnd="_l23_9vuHEe-bBLRxBIcuPg _l23_-PuHEe-bBLRxBIcuPg" navigableOwnedEnd="_l23_9vuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l23_9vuHEe-bBLRxBIcuPg" visibility="public" type="_l24AD_uHEe-bBLRxBIcuPg" isUnique="false" association="_l23_9fuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_9_uHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_l23_-PuHEe-bBLRxBIcuPg" visibility="public" type="_l23_9PuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_9fuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23_-fuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l23_-vuHEe-bBLRxBIcuPg" memberEnd="_l23_-_uHEe-bBLRxBIcuPg _l23__fuHEe-bBLRxBIcuPg" navigableOwnedEnd="_l23_-_uHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l23_-_uHEe-bBLRxBIcuPg" visibility="public" type="_l24AFvuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_-vuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23__PuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_l23__fuHEe-bBLRxBIcuPg" visibility="public" type="_l23_9PuHEe-bBLRxBIcuPg" isUnique="false" association="_l23_-vuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l23__vuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l23___uHEe-bBLRxBIcuPg" name="Laisser_un_avis">
+      <ownedComment xmi:id="_l24AAPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AAfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AAvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AA_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ABPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ABfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24ABvuHEe-bBLRxBIcuPg" name="Payer_le_loyer">
+      <ownedComment xmi:id="_l24AB_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ACPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ACfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ACvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AC_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ADPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:id="_l24ADfuHEe-bBLRxBIcuPg" name="UseCaseDependency" extendedCase="_l24ANPuHEe-bBLRxBIcuPg"/>
+      <extend xmi:id="_l24ADvuHEe-bBLRxBIcuPg" name="UseCaseDependency" extendedCase="_l24AO_uHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24AD_uHEe-bBLRxBIcuPg" name="Gérer_les_dispos">
+      <ownedComment xmi:id="_l24AEPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AEfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AEvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AE_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AFPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AFfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24AFvuHEe-bBLRxBIcuPg" name="Définir_les_tarifs">
+      <ownedComment xmi:id="_l24AF_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AGPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AGfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AGvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AG_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AHPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24AHfuHEe-bBLRxBIcuPg" name="Réserver_un_élément">
+      <ownedComment xmi:id="_l24AHvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AH_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AIPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AIfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AIvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AI_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:id="_l24AJPuHEe-bBLRxBIcuPg" name="UseCaseDependency" extendedCase="_l24AJvuHEe-bBLRxBIcuPg"/>
+      <extend xmi:id="_l24AJfuHEe-bBLRxBIcuPg" name="UseCaseDependency" extendedCase="_l24ALfuHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24AJvuHEe-bBLRxBIcuPg" name="Réserver préstation">
+      <ownedComment xmi:id="_l24AJ_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AKPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AKfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AKvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AK_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ALPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24ALfuHEe-bBLRxBIcuPg" name="Réserver materiel">
+      <ownedComment xmi:id="_l24ALvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AL_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AMPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AMfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AMvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AM_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24ANPuHEe-bBLRxBIcuPg" name="tranche">
+      <ownedComment xmi:id="_l24ANfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24ANvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AN_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AOPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AOfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AOvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l24AO_uHEe-bBLRxBIcuPg" name="totalité">
+      <ownedComment xmi:id="_l24APPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24APfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24APvuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AP_uHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AQPuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_l24AQfuHEe-bBLRxBIcuPg">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AQvuHEe-bBLRxBIcuPg" name="Clients">
+      <ownedAttribute xmi:id="_l24AQ_uHEe-bBLRxBIcuPg" name="réservation" visibility="public" type="_l24AWfuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AS_uHEe-bBLRxBIcuPg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24ARPuHEe-bBLRxBIcuPg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24ARfuHEe-bBLRxBIcuPg" name="id" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24ARvuHEe-bBLRxBIcuPg" name="pseudo" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AR_uHEe-bBLRxBIcuPg" name="motdepasse" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_l24ASPuHEe-bBLRxBIcuPg" name="CreerCompte" visibility="public"/>
+      <ownedOperation xmi:id="_l24ASfuHEe-bBLRxBIcuPg" name="LaisserUnavis" visibility="public"/>
+      <ownedOperation xmi:id="_l24ASvuHEe-bBLRxBIcuPg" name="Payerloyer" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AS_uHEe-bBLRxBIcuPg" name="effectue" memberEnd="_l24AQ_uHEe-bBLRxBIcuPg _l24ATPuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24ATPuHEe-bBLRxBIcuPg" visibility="public" type="_l24AQvuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AS_uHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24ATfuHEe-bBLRxBIcuPg" name="Gestionnaire">
+      <ownedAttribute xmi:id="_l24ATvuHEe-bBLRxBIcuPg" name="résidence" visibility="public" type="_l24AkvuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AVvuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24AT_uHEe-bBLRxBIcuPg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AUPuHEe-bBLRxBIcuPg" name="identifiant" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AUfuHEe-bBLRxBIcuPg" name="MotdePasse" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_l24AUvuHEe-bBLRxBIcuPg" name="gerer_dispos" visibility="public"/>
+      <ownedOperation xmi:id="_l24AU_uHEe-bBLRxBIcuPg" name="supprimer" visibility="public"/>
+      <ownedOperation xmi:id="_l24AVPuHEe-bBLRxBIcuPg" name="modifier" visibility="public"/>
+      <ownedOperation xmi:id="_l24AVfuHEe-bBLRxBIcuPg" name="définir_tarifs" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AVvuHEe-bBLRxBIcuPg" name="gère" memberEnd="_l24ATvuHEe-bBLRxBIcuPg _l24AV_uHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AV_uHEe-bBLRxBIcuPg" visibility="public" type="_l24ATfuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AVvuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24AWPuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AWfuHEe-bBLRxBIcuPg" name="Réservation">
+      <ownedComment xmi:id="_l24AWvuHEe-bBLRxBIcuPg">
+        <body>context Reservation
+inv DateValide: self.dateDebut &lt; self.dateFin
+
+context Reservation
+inv DureeMinimale: self.duree >= self.element.contraintes->select(c | c.type = &quot;Durée Min&quot;).valeur</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_l24AW_uHEe-bBLRxBIcuPg" name="paiement" visibility="public" type="_l24AivuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AZ_uHEe-bBLRxBIcuPg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AXPuHEe-bBLRxBIcuPg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AXfuHEe-bBLRxBIcuPg" name="eléments" visibility="public" type="_l24Aa_uHEe-bBLRxBIcuPg" isUnique="false" association="_l24AafuHEe-bBLRxBIcuPg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AXvuHEe-bBLRxBIcuPg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AX_uHEe-bBLRxBIcuPg" name="n°_Rsvt" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AYPuHEe-bBLRxBIcuPg" name="dateEntree" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AYfuHEe-bBLRxBIcuPg" name="dateSortie" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AYvuHEe-bBLRxBIcuPg" name="période" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AY_uHEe-bBLRxBIcuPg" name="nb_etoiles" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AZPuHEe-bBLRxBIcuPg" name="avis" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AZfuHEe-bBLRxBIcuPg" name="prix" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_l24AZvuHEe-bBLRxBIcuPg" name="valider" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AZ_uHEe-bBLRxBIcuPg" memberEnd="_l24AW_uHEe-bBLRxBIcuPg _l24AaPuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AaPuHEe-bBLRxBIcuPg" visibility="public" type="_l24AWfuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AZ_uHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AafuHEe-bBLRxBIcuPg" name="conserne" memberEnd="_l24AXfuHEe-bBLRxBIcuPg _l24AavuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AavuHEe-bBLRxBIcuPg" visibility="public" type="_l24AWfuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AafuHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24Aa_uHEe-bBLRxBIcuPg" name="Eléments">
+      <ownedAttribute xmi:id="_l24AbPuHEe-bBLRxBIcuPg" name="options" visibility="public" type="_l24Ae_uHEe-bBLRxBIcuPg" isUnique="false" association="_l24AdPuHEe-bBLRxBIcuPg">
+        <ownedComment xmi:id="_l24AbfuHEe-bBLRxBIcuPg">
+          <body>&lt;Saisir le texte de la note ici></body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AbvuHEe-bBLRxBIcuPg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24Ab_uHEe-bBLRxBIcuPg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AcPuHEe-bBLRxBIcuPg" name="Nom" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AcfuHEe-bBLRxBIcuPg" name="jourlibres" visibility="public" isUnique="false"/>
+      <ownedAttribute xmi:id="_l24AcvuHEe-bBLRxBIcuPg" name="Jouroccupes" visibility="public" isUnique="false"/>
+      <ownedOperation xmi:id="_l24Ac_uHEe-bBLRxBIcuPg" name="reserver" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AdPuHEe-bBLRxBIcuPg" name="contient" memberEnd="_l24AbPuHEe-bBLRxBIcuPg _l24AdfuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AdfuHEe-bBLRxBIcuPg" visibility="public" type="_l24Aa_uHEe-bBLRxBIcuPg" isUnique="false" association="_l24AdPuHEe-bBLRxBIcuPg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AdvuHEe-bBLRxBIcuPg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24Ad_uHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AePuHEe-bBLRxBIcuPg" name="Utilisateurs"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AefuHEe-bBLRxBIcuPg" name="Materiel"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AevuHEe-bBLRxBIcuPg" name="Prestations"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24Ae_uHEe-bBLRxBIcuPg" name="Options">
+      <ownedAttribute xmi:id="_l24AfPuHEe-bBLRxBIcuPg" name="materiel" visibility="public" type="_l24AefuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AhPuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24AffuHEe-bBLRxBIcuPg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AfvuHEe-bBLRxBIcuPg" name="prestations" visibility="public" type="_l24AevuHEe-bBLRxBIcuPg" isUnique="false" association="_l24Ah_uHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24Af_uHEe-bBLRxBIcuPg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AgPuHEe-bBLRxBIcuPg" name="id" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AgfuHEe-bBLRxBIcuPg" name="nom" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AgvuHEe-bBLRxBIcuPg" name="prix" visibility="public" isUnique="false">
+        <ownedComment xmi:id="_l24Ag_uHEe-bBLRxBIcuPg">
+          <body>&lt;Saisir le texte de la note ici></body>
+        </ownedComment>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AhPuHEe-bBLRxBIcuPg" memberEnd="_l24AfPuHEe-bBLRxBIcuPg _l24AhfuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AhfuHEe-bBLRxBIcuPg" visibility="public" type="_l24Ae_uHEe-bBLRxBIcuPg" isUnique="false" association="_l24AhPuHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24AhvuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24Ah_uHEe-bBLRxBIcuPg" memberEnd="_l24AfvuHEe-bBLRxBIcuPg _l24AiPuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AiPuHEe-bBLRxBIcuPg" visibility="public" type="_l24Ae_uHEe-bBLRxBIcuPg" isUnique="false" association="_l24Ah_uHEe-bBLRxBIcuPg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l24AifuHEe-bBLRxBIcuPg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AivuHEe-bBLRxBIcuPg" name="Paiement">
+      <ownedComment xmi:id="_l24Ai_uHEe-bBLRxBIcuPg">
+        <body>context Paiement
+inv ReservationExiste: self.reservation->notEmpty()</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_l24AjPuHEe-bBLRxBIcuPg" name="nb_elts" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AjfuHEe-bBLRxBIcuPg" name="montant" visibility="public" isUnique="false">
+        <ownedComment xmi:id="_l24AjvuHEe-bBLRxBIcuPg">
+          <body>&lt;Saisir le texte de la note ici></body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24Aj_uHEe-bBLRxBIcuPg" name="modePaiement" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AkPuHEe-bBLRxBIcuPg" name="statut" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_l24AkfuHEe-bBLRxBIcuPg" name="effectuer" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l24AkvuHEe-bBLRxBIcuPg" name="Résidence">
+      <ownedAttribute xmi:id="_l24Ak_uHEe-bBLRxBIcuPg" name="eléments" visibility="public" type="_l24Aa_uHEe-bBLRxBIcuPg" isUnique="false" aggregation="shared" association="_l24AmfuHEe-bBLRxBIcuPg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AlPuHEe-bBLRxBIcuPg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AlfuHEe-bBLRxBIcuPg" name="NomResidence" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24AlvuHEe-bBLRxBIcuPg" name="Description" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l24Al_uHEe-bBLRxBIcuPg" name="adresse" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_l24AmPuHEe-bBLRxBIcuPg" name="ajouterElement" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_l24AmfuHEe-bBLRxBIcuPg" memberEnd="_l24Ak_uHEe-bBLRxBIcuPg _l24AmvuHEe-bBLRxBIcuPg">
+      <ownedEnd xmi:id="_l24AmvuHEe-bBLRxBIcuPg" visibility="public" type="_l24AkvuHEe-bBLRxBIcuPg" isUnique="false" association="_l24AmfuHEe-bBLRxBIcuPg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24Am_uHEe-bBLRxBIcuPg" name="reservation1 " classifier="_l24AWfuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24AnPuHEe-bBLRxBIcuPg" definingFeature="_l24AX_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AnfuHEe-bBLRxBIcuPg" value="R12345"/>
+      </slot>
+      <slot xmi:id="_l24AnvuHEe-bBLRxBIcuPg" definingFeature="_l24AYPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24An_uHEe-bBLRxBIcuPg" symbol="2025-07-10"/>
+      </slot>
+      <slot xmi:id="_l24AoPuHEe-bBLRxBIcuPg" definingFeature="_l24AYfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24AofuHEe-bBLRxBIcuPg" symbol="2025-07-15"/>
+      </slot>
+      <slot xmi:id="_l24AovuHEe-bBLRxBIcuPg" definingFeature="_l24AYvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24Ao_uHEe-bBLRxBIcuPg" value="Été"/>
+      </slot>
+      <slot xmi:id="_l24ApPuHEe-bBLRxBIcuPg" definingFeature="_l24AY_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24ApfuHEe-bBLRxBIcuPg" value="4"/>
+      </slot>
+      <slot xmi:id="_l24ApvuHEe-bBLRxBIcuPg" definingFeature="_l24AZPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24Ap_uHEe-bBLRxBIcuPg" value="Très bon séjour"/>
+      </slot>
+      <slot xmi:id="_l24AqPuHEe-bBLRxBIcuPg" definingFeature="_l24AZfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24AqfuHEe-bBLRxBIcuPg" symbol="500.0"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AqvuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24Aq_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24ArPuHEe-bBLRxBIcuPg" name="paiement1 " instance="_l24Ar_uHEe-bBLRxBIcuPg"/>
+      </slot>
+      <slot xmi:id="_l24ArfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24ArvuHEe-bBLRxBIcuPg" instance="_l24Am_uHEe-bBLRxBIcuPg"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24Ar_uHEe-bBLRxBIcuPg" name="paiement1 " classifier="_l24AivuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24AsPuHEe-bBLRxBIcuPg" definingFeature="_l24AjPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24AsfuHEe-bBLRxBIcuPg" value="1"/>
+      </slot>
+      <slot xmi:id="_l24AsvuHEe-bBLRxBIcuPg" definingFeature="_l24AjfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24As_uHEe-bBLRxBIcuPg" symbol="500.0"/>
+      </slot>
+      <slot xmi:id="_l24AtPuHEe-bBLRxBIcuPg" definingFeature="_l24Aj_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AtfuHEe-bBLRxBIcuPg" value="totalité"/>
+      </slot>
+      <slot xmi:id="_l24AtvuHEe-bBLRxBIcuPg" definingFeature="_l24AkPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24At_uHEe-bBLRxBIcuPg" value="payé"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AuPuHEe-bBLRxBIcuPg" name="gestionnaire1 " classifier="_l24ATfuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24AufuHEe-bBLRxBIcuPg" definingFeature="_l24AUPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AuvuHEe-bBLRxBIcuPg" value="Admin01"/>
+      </slot>
+      <slot xmi:id="_l24Au_uHEe-bBLRxBIcuPg" definingFeature="_l24AUfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AvPuHEe-bBLRxBIcuPg" value="********"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AvfuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24AvvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24Av_uHEe-bBLRxBIcuPg" name="residence1" instance="_l24AwvuHEe-bBLRxBIcuPg"/>
+      </slot>
+      <slot xmi:id="_l24AwPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24AwfuHEe-bBLRxBIcuPg" instance="_l24AuPuHEe-bBLRxBIcuPg"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AwvuHEe-bBLRxBIcuPg" name="residence1" classifier="_l24AkvuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24Aw_uHEe-bBLRxBIcuPg" definingFeature="_l24AlfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AxPuHEe-bBLRxBIcuPg" value="Résidence BelleVue"/>
+      </slot>
+      <slot xmi:id="_l24AxfuHEe-bBLRxBIcuPg" definingFeature="_l24AlvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AxvuHEe-bBLRxBIcuPg" value="Résidence située en bord de mer"/>
+      </slot>
+      <slot xmi:id="_l24Ax_uHEe-bBLRxBIcuPg" definingFeature="_l24Al_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24AyPuHEe-bBLRxBIcuPg" value="1 Rue du moulin"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AyfuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24AyvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24Ay_uHEe-bBLRxBIcuPg" name="element1 " instance="_l24m9fuHEe-bBLRxBIcuPg"/>
+      </slot>
+      <slot xmi:id="_l24AzPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24AzfuHEe-bBLRxBIcuPg" instance="_l24AwvuHEe-bBLRxBIcuPg"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24AzvuHEe-bBLRxBIcuPg" name="client1" classifier="_l24AQvuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24Az_uHEe-bBLRxBIcuPg" definingFeature="_l24ARfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24A0PuHEe-bBLRxBIcuPg" value="C001"/>
+      </slot>
+      <slot xmi:id="_l24A0fuHEe-bBLRxBIcuPg" definingFeature="_l24ARvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24A0vuHEe-bBLRxBIcuPg" value="JeanDupont"/>
+      </slot>
+      <slot xmi:id="_l24A0_uHEe-bBLRxBIcuPg" definingFeature="_l24AR_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24A1PuHEe-bBLRxBIcuPg" value="********"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24m8PuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24m8fuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24m8vuHEe-bBLRxBIcuPg" name="reservation1 " instance="_l24Am_uHEe-bBLRxBIcuPg"/>
+      </slot>
+      <slot xmi:id="_l24m8_uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24m9PuHEe-bBLRxBIcuPg" instance="_l24AzvuHEe-bBLRxBIcuPg"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24m9fuHEe-bBLRxBIcuPg" name="element1 " classifier="_l24Aa_uHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24m9vuHEe-bBLRxBIcuPg" definingFeature="_l24AcPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24m9_uHEe-bBLRxBIcuPg" value="Studio 101"/>
+      </slot>
+      <slot xmi:id="_l24m-PuHEe-bBLRxBIcuPg" definingFeature="_l24AcfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24m-fuHEe-bBLRxBIcuPg" symbol="10-20 Juillet"/>
+      </slot>
+      <slot xmi:id="_l24m-vuHEe-bBLRxBIcuPg" definingFeature="_l24AcvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24m-_uHEe-bBLRxBIcuPg" symbol="5-9 Juillet"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24m_PuHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24m_fuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24m_vuHEe-bBLRxBIcuPg" name="option1" instance="_l24nAfuHEe-bBLRxBIcuPg"/>
+      </slot>
+      <slot xmi:id="_l24m__uHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:InstanceValue" xmi:id="_l24nAPuHEe-bBLRxBIcuPg" instance="_l24m9fuHEe-bBLRxBIcuPg"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_l24nAfuHEe-bBLRxBIcuPg" name="option1" classifier="_l24Ae_uHEe-bBLRxBIcuPg">
+      <slot xmi:id="_l24nAvuHEe-bBLRxBIcuPg" definingFeature="_l24AgPuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l24nA_uHEe-bBLRxBIcuPg" value="1"/>
+      </slot>
+      <slot xmi:id="_l24nBPuHEe-bBLRxBIcuPg" definingFeature="_l24AgfuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:LiteralString" xmi:id="_l24nBfuHEe-bBLRxBIcuPg" value="Petit-déjeuner"/>
+      </slot>
+      <slot xmi:id="_l24nBvuHEe-bBLRxBIcuPg" definingFeature="_l24AgvuHEe-bBLRxBIcuPg">
+        <value xmi:type="uml:Expression" xmi:id="_l24nB_uHEe-bBLRxBIcuPg" symbol="10.0"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_l24nCPuHEe-bBLRxBIcuPg" name="State Machine">
+      <region xmi:id="_l24nCfuHEe-bBLRxBIcuPg">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nCvuHEe-bBLRxBIcuPg" name="Initial State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nC_uHEe-bBLRxBIcuPg" name="connexion"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nDPuHEe-bBLRxBIcuPg" name="faire_reservation"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nDfuHEe-bBLRxBIcuPg" name="voir disponibilités"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nDvuHEe-bBLRxBIcuPg" name="erreur"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nD_uHEe-bBLRxBIcuPg" name="mail_confirmation"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nEPuHEe-bBLRxBIcuPg" name="Choice" kind="choice"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_l24nEfuHEe-bBLRxBIcuPg" name="Final State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nEvuHEe-bBLRxBIcuPg" name="choix_elements"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nE_uHEe-bBLRxBIcuPg" name="Payer"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nFPuHEe-bBLRxBIcuPg" name="Initial State1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nFfuHEe-bBLRxBIcuPg" name="validation"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nFvuHEe-bBLRxBIcuPg" name="voir disponibilitées"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nF_uHEe-bBLRxBIcuPg" name="payement"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nGPuHEe-bBLRxBIcuPg" name="confirmation par mail"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_l24nGfuHEe-bBLRxBIcuPg" name="Final State1"/>
+        <transition xmi:id="_l24nGvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nCvuHEe-bBLRxBIcuPg" target="_l24nC_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nG_uHEe-bBLRxBIcuPg" name="Transition1" source="_l24nC_uHEe-bBLRxBIcuPg" target="_l24nDvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nHPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nC_uHEe-bBLRxBIcuPg" target="_l24nEvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nHfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nDPuHEe-bBLRxBIcuPg" target="_l24nE_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nHvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nDfuHEe-bBLRxBIcuPg" target="_l24nEPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nH_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nDvuHEe-bBLRxBIcuPg" target="_l24nEfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nIPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nD_uHEe-bBLRxBIcuPg" target="_l24nEfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nIfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nEPuHEe-bBLRxBIcuPg" target="_l24nDPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nIvuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nEPuHEe-bBLRxBIcuPg" target="_l24nEfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nI_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nEvuHEe-bBLRxBIcuPg" target="_l24nDfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nJPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nE_uHEe-bBLRxBIcuPg" target="_l24nD_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nJfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nFPuHEe-bBLRxBIcuPg" target="_l24nFfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nJvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nFfuHEe-bBLRxBIcuPg" target="_l24nFvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nJ_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nFvuHEe-bBLRxBIcuPg" target="_l24nF_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nKPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nF_uHEe-bBLRxBIcuPg" target="_l24nGPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nKfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nGPuHEe-bBLRxBIcuPg" target="_l24nGfuHEe-bBLRxBIcuPg"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_l24nKvuHEe-bBLRxBIcuPg" name="State Machine1">
+      <region xmi:id="_l24nK_uHEe-bBLRxBIcuPg">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nLPuHEe-bBLRxBIcuPg" name="Initial State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nLfuHEe-bBLRxBIcuPg" name="ouverture de l'application"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nLvuHEe-bBLRxBIcuPg" name="connexion"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nL_uHEe-bBLRxBIcuPg" name="enregistrement"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nMPuHEe-bBLRxBIcuPg" name="non valide"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nMfuHEe-bBLRxBIcuPg" name="vérification"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nMvuHEe-bBLRxBIcuPg" name="vérification echouée"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nM_uHEe-bBLRxBIcuPg" name="vérifié"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_l24nNPuHEe-bBLRxBIcuPg" name="Final State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nNfuHEe-bBLRxBIcuPg" name="connecté"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nNvuHEe-bBLRxBIcuPg" name="connexion refusée"/>
+        <transition xmi:id="_l24nN_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nLPuHEe-bBLRxBIcuPg" target="_l24nLfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nOPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nLfuHEe-bBLRxBIcuPg" target="_l24nLvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nOfuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nLfuHEe-bBLRxBIcuPg" target="_l24nL_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nOvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nLvuHEe-bBLRxBIcuPg" target="_l24nNvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nO_uHEe-bBLRxBIcuPg" name="Transition1" source="_l24nLvuHEe-bBLRxBIcuPg" target="_l24nNfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nPPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nL_uHEe-bBLRxBIcuPg" target="_l24nMPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nPfuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nL_uHEe-bBLRxBIcuPg" target="_l24nMfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nPvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nMPuHEe-bBLRxBIcuPg" target="_l24nL_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nP_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nMfuHEe-bBLRxBIcuPg" target="_l24nMvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nQPuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nMfuHEe-bBLRxBIcuPg" target="_l24nM_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nQfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nMvuHEe-bBLRxBIcuPg" target="_l24nMfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nQvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nM_uHEe-bBLRxBIcuPg" target="_l24nNPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nQ_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nNfuHEe-bBLRxBIcuPg" target="_l24nNPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nRPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nNvuHEe-bBLRxBIcuPg" target="_l24nNPuHEe-bBLRxBIcuPg"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_l24nRfuHEe-bBLRxBIcuPg" name="State Machine2">
+      <region xmi:id="_l24nRvuHEe-bBLRxBIcuPg">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nR_uHEe-bBLRxBIcuPg" name="Initial State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nSPuHEe-bBLRxBIcuPg" name="connexion"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nSfuHEe-bBLRxBIcuPg" name="voir le tableau de bord"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nSvuHEe-bBLRxBIcuPg" name="gérer_disponibilités"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nS_uHEe-bBLRxBIcuPg" name="gérer_éléments"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nTPuHEe-bBLRxBIcuPg" name="gérer_avis"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nTfuHEe-bBLRxBIcuPg" name="ajouter/modifier"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nTvuHEe-bBLRxBIcuPg" name="ajouter/modier"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nT_uHEe-bBLRxBIcuPg" name="afficher_éléments"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nUPuHEe-bBLRxBIcuPg" name="valider_avis"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nUfuHEe-bBLRxBIcuPg" name="afficher_dispo"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nUvuHEe-bBLRxBIcuPg" name="ignorer_avis"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nU_uHEe-bBLRxBIcuPg" name="State"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_l24nVPuHEe-bBLRxBIcuPg" name="Final State"/>
+        <transition xmi:id="_l24nVfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nR_uHEe-bBLRxBIcuPg" target="_l24nSPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nVvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nSPuHEe-bBLRxBIcuPg" target="_l24nSfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nV_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nSfuHEe-bBLRxBIcuPg" target="_l24nSvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nWPuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nSfuHEe-bBLRxBIcuPg" target="_l24nTPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nWfuHEe-bBLRxBIcuPg" name="Transition2" source="_l24nSfuHEe-bBLRxBIcuPg" target="_l24nS_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nWvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nSvuHEe-bBLRxBIcuPg" target="_l24nTfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nW_uHEe-bBLRxBIcuPg" name="Transition1" source="_l24nSvuHEe-bBLRxBIcuPg" target="_l24nUfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nXPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nS_uHEe-bBLRxBIcuPg" target="_l24nT_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nXfuHEe-bBLRxBIcuPg" name="Transition1" source="_l24nS_uHEe-bBLRxBIcuPg" target="_l24nTvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nXvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nTPuHEe-bBLRxBIcuPg" target="_l24nUPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nX_uHEe-bBLRxBIcuPg" name="Transition1" source="_l24nTPuHEe-bBLRxBIcuPg" target="_l24nUvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nYPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nTfuHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nYfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nTvuHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nYvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nT_uHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nY_uHEe-bBLRxBIcuPg" name="Transition" source="_l24nUPuHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nZPuHEe-bBLRxBIcuPg" name="Transition" source="_l24nUfuHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nZfuHEe-bBLRxBIcuPg" name="Transition" source="_l24nUvuHEe-bBLRxBIcuPg" target="_l24nU_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nZvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nU_uHEe-bBLRxBIcuPg" target="_l24nVPuHEe-bBLRxBIcuPg"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_l24nZ_uHEe-bBLRxBIcuPg" name="State Machine3">
+      <region xmi:id="_l24naPuHEe-bBLRxBIcuPg">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_l24nafuHEe-bBLRxBIcuPg" name="Initial State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24navuHEe-bBLRxBIcuPg" name="demande de paiement"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24na_uHEe-bBLRxBIcuPg" name="totalié"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nbPuHEe-bBLRxBIcuPg" name="tranche"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nbfuHEe-bBLRxBIcuPg" name="paiement échoué"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nbvuHEe-bBLRxBIcuPg" name="validation"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24nb_uHEe-bBLRxBIcuPg" name="message de confirmation"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_l24ncPuHEe-bBLRxBIcuPg" name="Final State"/>
+        <subvertex xmi:type="uml:State" xmi:id="_l24ncfuHEe-bBLRxBIcuPg" name="Affichage du mode de paiement"/>
+        <transition xmi:id="_l24ncvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nafuHEe-bBLRxBIcuPg" target="_l24navuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nc_uHEe-bBLRxBIcuPg" name="Transition" source="_l24navuHEe-bBLRxBIcuPg" target="_l24ncfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24ndPuHEe-bBLRxBIcuPg" name="Transition" source="_l24na_uHEe-bBLRxBIcuPg" target="_l24nbfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24ndfuHEe-bBLRxBIcuPg" name="Transition1" source="_l24na_uHEe-bBLRxBIcuPg" target="_l24nbvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24ndvuHEe-bBLRxBIcuPg" name="Transition" source="_l24nbPuHEe-bBLRxBIcuPg" target="_l24nbfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nd_uHEe-bBLRxBIcuPg" name="Transition1" source="_l24nbPuHEe-bBLRxBIcuPg" target="_l24nbvuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nePuHEe-bBLRxBIcuPg" name="Transition" source="_l24nbfuHEe-bBLRxBIcuPg" target="_l24ncfuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nefuHEe-bBLRxBIcuPg" name="Transition" source="_l24nbvuHEe-bBLRxBIcuPg" target="_l24nb_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nevuHEe-bBLRxBIcuPg" name="Transition" source="_l24nb_uHEe-bBLRxBIcuPg" target="_l24ncPuHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24ne_uHEe-bBLRxBIcuPg" name="Transition" source="_l24ncfuHEe-bBLRxBIcuPg" target="_l24na_uHEe-bBLRxBIcuPg"/>
+        <transition xmi:id="_l24nfPuHEe-bBLRxBIcuPg" name="Transition1" source="_l24ncfuHEe-bBLRxBIcuPg" target="_l24nbPuHEe-bBLRxBIcuPg"/>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:id="_l3cnoPuHEe-bBLRxBIcuPg">
+      <eAnnotations xmi:id="_l3dOsPuHEe-bBLRxBIcuPg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.xmi#_l3ENJ_uHEe-bBLRxBIcuPg"/>
+      </eAnnotations>
+      <appliedProfile href="JavaExtensions.profile.xmi#_l3ENIPuHEe-bBLRxBIcuPg"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaClass xmi:id="_l3fD4PuHEe-bBLRxBIcuPg" base_Class="_l24AQvuHEe-bBLRxBIcuPg"/>
+  <JavaExtensions:JavaClass xmi:id="_l3fq8PuHEe-bBLRxBIcuPg" base_Class="_l24ATfuHEe-bBLRxBIcuPg"/>
+  <JavaExtensions:JavaClass xmi:id="_l3fq8fuHEe-bBLRxBIcuPg" base_Class="_l24AWfuHEe-bBLRxBIcuPg"/>
+  <JavaExtensions:JavaClass xmi:id="_l3fq8vuHEe-bBLRxBIcuPg" base_Class="_l24Aa_uHEe-bBLRxBIcuPg"/>
+  <JavaExtensions:JavaClass xmi:id="_l3fq8_uHEe-bBLRxBIcuPg" base_Class="_l24AivuHEe-bBLRxBIcuPg"/>
+  <JavaExtensions:JavaClass xmi:id="_l3fq9PuHEe-bBLRxBIcuPg" base_Class="_l24AkvuHEe-bBLRxBIcuPg"/>
+</xmi:XMI>
