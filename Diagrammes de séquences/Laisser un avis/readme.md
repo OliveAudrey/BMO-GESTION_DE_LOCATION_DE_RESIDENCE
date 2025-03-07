@@ -2,6 +2,7 @@ TOMBEZE Noah
 IRAKOZE Olive
 
 Diagramme de séquence : Laisser un avis
+
 Description :
 Ce diagramme de séquence illustre le processus pour laisser un avis entre le client le systeme et le gestionnaire
 
